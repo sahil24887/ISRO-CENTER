@@ -1,0 +1,134 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header h1 span {
+    color: #FFBF00;
+}
+
+.heading-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.heading h2 {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-field {
+    background-color: #007BFF;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.input-field input {
+    border: 0;
+    background-color:antiquewhite;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 15px ;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+.center{
+    text-align: left;
+    width: 15%;
+    word-wrap: break-word;
+}
+.city{
+    text-align: center;
+    width: 15%;
+    word-wrap: break-word;
+}
+.state{
+    width: 15%;
+    text-align: right;
+}
+.section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    font-weight: bold;
+    font-size: 14px;
+    color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .heading-input {
+        flex-direction: column;
+    }
+
+    .input-field input {
+        width: 75vw;
+    }
+
+    .heading-input button {
+        width: 65vw;
+    }
+}
